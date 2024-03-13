@@ -1,9 +1,54 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MyCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.MyCalculator" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--Primary brand color-->
+                <item name="colorPrimary">@color/grayDark</item>
+                <item name="colorPrimaryVariant">@color/grayDark</item>
+                <item name="colorOnPrimary">@color/white</item>
+
+        <!--Secondary brand color-->
+        <item name="colorSecondary">@color/grayDark</item>
+        <item name="colorSecondaryVariant">@color/grayDark</item>
+        <item name="colorOnSecondary">@color/grayDark</item>
+
+        <!--Status bar color-->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+
+
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.MyCalculator" parent="Base.Theme.MyCalculator" />
+    <style name="Button1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">60dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:background">@drawable/shape1</item>
+    </style>
+    <style name="Button2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">60dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:background">@drawable/shape2</item>
+    </style>
+    <style name="Button3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">60dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:background">@drawable/shape3</item>
+    </style>
 </resources>

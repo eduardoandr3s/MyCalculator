@@ -1,7 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MyCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.MyCalculator" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
+
+        <!--Primary brand color-->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/grayDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!--Secondary brand color-->
+        <item name="colorSecondary">@color/grayDark</item>
+        <item name="colorSecondaryVariant">@color/grayDark</item>
+        <item name="colorOnSecondary">@color/grayDark</item>
+
+        <!--Status bar color-->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 </resources>
